@@ -14,20 +14,27 @@ msgctxt "report:account.dunning.letter:"
 msgid "Amount"
 msgstr ""
 
+#, fuzzy
 msgctxt "report:account.dunning.letter:"
 msgid "Date"
-msgstr ""
+msgstr "Dátum"
 
+#, fuzzy
 msgctxt "report:account.dunning.letter:"
 msgid "Date:"
-msgstr ""
+msgstr "Dátum:"
 
+#, fuzzy
 msgctxt "report:account.dunning.letter:"
 msgid "Description"
-msgstr ""
+msgstr "Leírás"
 
 msgctxt "report:account.dunning.letter:"
 msgid "Due Date"
+msgstr ""
+
+msgctxt "report:account.dunning.letter:"
+msgid "Fees:"
 msgstr ""
 
 msgctxt "report:account.dunning.letter:"
@@ -41,3 +48,8 @@ msgstr ""
 msgctxt "report:account.dunning.letter:"
 msgid "Reminder Notice"
 msgstr ""
+
+#, fuzzy
+msgctxt "report:account.dunning.letter:"
+msgid "s"
+msgstr "s"

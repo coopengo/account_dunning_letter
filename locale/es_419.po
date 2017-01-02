@@ -4,40 +4,44 @@ msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "field:account.dunning.level,print_on_letter:"
 msgid "Print on Letter"
-msgstr "Imprimeix en una carta"
+msgstr ""
 
 msgctxt "model:ir.action,name:report_letter"
 msgid "Dunning Letter"
-msgstr "Carta de reclamació"
+msgstr "Carta de cobro"
 
 msgctxt "report:account.dunning.letter:"
 msgid "Amount"
-msgstr "Import"
+msgstr ""
 
 msgctxt "report:account.dunning.letter:"
 msgid "Date"
-msgstr "Data"
+msgstr ""
 
 msgctxt "report:account.dunning.letter:"
 msgid "Date:"
-msgstr "Data:"
+msgstr ""
 
 msgctxt "report:account.dunning.letter:"
 msgid "Description"
-msgstr "Descripció"
+msgstr ""
 
 msgctxt "report:account.dunning.letter:"
 msgid "Due Date"
-msgstr "Data de venciment"
+msgstr "Fecha de vencimiento"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Fees:"
+msgstr ""
 
 msgctxt "report:account.dunning.letter:"
 msgid "Pending Payments Received"
-msgstr "Pagaments pendents rebuts"
+msgstr ""
 
 msgctxt "report:account.dunning.letter:"
 msgid "Reference"
-msgstr "Referència"
+msgstr ""
 
 msgctxt "report:account.dunning.letter:"
 msgid "Reminder Notice"
-msgstr "Avís recordatori"
+msgstr ""

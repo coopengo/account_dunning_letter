@@ -4,40 +4,49 @@ msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "field:account.dunning.level,print_on_letter:"
 msgid "Print on Letter"
-msgstr "Na izpisu"
+msgstr "ພິມໃສ່ຈົດໝາຍ"
 
 msgctxt "model:ir.action,name:report_letter"
 msgid "Dunning Letter"
-msgstr "Opomin"
+msgstr "ຈົດໝາຍເລັ່ງທວງ"
 
 msgctxt "report:account.dunning.letter:"
 msgid "Amount"
-msgstr "Znesek"
+msgstr "ມູນຄ່າ"
 
 msgctxt "report:account.dunning.letter:"
 msgid "Date"
-msgstr "Datum"
+msgstr "ວັນທີ"
 
 msgctxt "report:account.dunning.letter:"
 msgid "Date:"
-msgstr "Datum:"
+msgstr "ວັນທີ:"
 
 msgctxt "report:account.dunning.letter:"
 msgid "Description"
-msgstr "Opis"
+msgstr "ເນື້ອໃນລາຍການ"
 
 msgctxt "report:account.dunning.letter:"
 msgid "Due Date"
-msgstr "Zapadlost"
+msgstr "ວັນທີຕ້ອງຈ່າຍ"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Fees:"
+msgstr ""
 
 msgctxt "report:account.dunning.letter:"
 msgid "Pending Payments Received"
-msgstr "Dosedanja plačila"
+msgstr "ຈຳນວນເງິນຄ້າງຊໍາລະທີ່ໄດ້ຮັບ"
 
 msgctxt "report:account.dunning.letter:"
 msgid "Reference"
-msgstr "Sklic"
+msgstr "ເອກະສານອ້າງອີງ"
 
 msgctxt "report:account.dunning.letter:"
 msgid "Reminder Notice"
-msgstr "Opomin"
+msgstr "ໜັງສືແຈ້ງເຕືອນ"
+
+#, fuzzy
+msgctxt "report:account.dunning.letter:"
+msgid "s"
+msgstr "ວິນາທີ"

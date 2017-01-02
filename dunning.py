@@ -47,6 +47,11 @@ class Letter(CompanyReport):
     __name__ = 'account.dunning.letter'
 
     @classmethod
+    def execute(cls, ids, data):
+        with Transaction().set_context(address_with_party=True):
+            return super(Letter, cls).execute(ids, data)
+
+    @classmethod
     def get_context(cls, records, data):
         report_context = super(Letter, cls).get_context(records, data)
 
@@ -91,6 +96,10 @@ class Letter(CompanyReport):
             def __init__(self, dunnings, payments):
                 self.dunnings = dunnings
                 self.payments = payments
+
+            @property
+            def fees(self):
+                return {}
 
             def highest_levels(self):
                 'Yield each procedure and the highest level'

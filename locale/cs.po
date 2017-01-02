@@ -31,6 +31,10 @@ msgid "Due Date"
 msgstr ""
 
 msgctxt "report:account.dunning.letter:"
+msgid "Fees:"
+msgstr ""
+
+msgctxt "report:account.dunning.letter:"
 msgid "Pending Payments Received"
 msgstr ""
 
