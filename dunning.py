@@ -12,9 +12,6 @@ from trytond.transaction import Transaction
 from trytond.tools import grouped_slice
 
 
-__all__ = ['Level', 'ProcessDunning', 'Letter']
-
-
 class Level(metaclass=PoolMeta):
     __name__ = 'account.dunning.level'
     print_on_letter = fields.Boolean('Print on Letter')
@@ -95,6 +92,8 @@ class Letter(CompanyReport, metaclass=PoolMeta):
     def get_party_letter():
 
         class PartyLetter(object, metaclass=PoolMeta):
+            __slots__ = ('dunnings', 'payments')
+
             def __init__(self, dunnings, payments):
                 self.dunnings = dunnings
                 self.payments = payments
