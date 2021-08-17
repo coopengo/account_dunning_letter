@@ -27,9 +27,7 @@ class ProcessDunning(metaclass=PoolMeta):
         cls._actions.append('print_letter')
 
     def do_print_letter(self, action):
-        pool = Pool()
-        Dunning = pool.get('account.dunning')
-        dunnings = Dunning.browse(Transaction().context['active_ids'])
+        dunnings = self.records
         ids = [d.id for d in dunnings
             if d.state == 'waiting'
             and not d.blocked
@@ -54,8 +52,8 @@ class Letter(CompanyReport, metaclass=PoolMeta):
             return super(Letter, cls).execute(ids, data)
 
     @classmethod
-    def get_context(cls, records, data):
-        report_context = super(Letter, cls).get_context(records, data)
+    def get_context(cls, records, header, data):
+        report_context = super().get_context(records, header, data)
 
         pool = Pool()
         Date = pool.get('ir.date')
